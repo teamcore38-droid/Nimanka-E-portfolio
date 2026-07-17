@@ -225,6 +225,14 @@ section {
     color: var(--accent);
 }
 
+.logo-mobile {
+    display: none;
+}
+
+.logo-desktop {
+    display: inline;
+}
+
 .main-navigation {
     display: flex;
     align-items: center;
@@ -1327,6 +1335,15 @@ textarea.form-control {
 }
 
 @media (max-width: 768px) {
+    .logo-desktop {
+        display: none;
+    }
+    
+    .logo-mobile {
+        display: inline;
+        font-size: 1.05rem;
+    }
+    
     .main-navigation {
         display: none;
     }
