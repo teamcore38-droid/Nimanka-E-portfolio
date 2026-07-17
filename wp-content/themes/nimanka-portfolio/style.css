@@ -215,11 +215,10 @@ section {
 
 .logo a {
     font-family: var(--font-heading);
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     font-weight: 850;
     color: var(--primary-light);
     letter-spacing: -0.5px;
-    white-space: nowrap;
 }
 
 .logo span {
@@ -1328,10 +1327,6 @@ textarea.form-control {
 }
 
 @media (max-width: 768px) {
-    .logo a {
-        font-size: 1.05rem;
-    }
-    
     .main-navigation {
         display: none;
     }
